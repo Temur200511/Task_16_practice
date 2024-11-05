@@ -1,0 +1,565 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "Source Serif 4", serif;
+}
+
+.container{
+    max-width: 670px;
+    margin: auto;
+}
+
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 47px;
+    /* width: 100vw;
+    overflow-x: hidden; */
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.menu{
+    display: none;
+}
+
+nav a{
+font-size: 12px;
+font-weight: 600;
+line-height: 15.04px;
+letter-spacing: 0.16em;
+text-decoration: none;
+}
+
+.img01{
+    padding-top: 96px;
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+
+.px_26{
+    font-size: 26px;
+font-size: 26px;
+font-weight: 600;
+line-height: 32px;
+}
+
+.nav{
+    padding-top: 39px;
+    text-align: center;
+    margin-bottom: 79px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+}
+
+.px_12{
+font-size: 12px;
+font-weight: 600;
+line-height: 15.04px;
+letter-spacing: 0.16em;
+text-align: center;
+color: #222222;
+}
+
+.listen{
+    padding-top: 39px;
+    padding-bottom: 18px;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.px_10{
+font-size: 10px;
+font-weight: 600;
+line-height: 12.53px;
+color: #7247CA;
+border: 1px solid #F5F5F7;
+border-radius: 3px;
+padding: 6px 8px;
+background-color: #F5F5F7;
+width: 39px;
+}
+
+.section{
+    margin-top: 96px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    text-align: flex-start;
+}
+
+.px_21{
+   
+font-size: 21px;
+font-weight: 600;
+line-height: 25px;
+color: #222222;
+}
+
+.test{
+    padding: 13px 0;
+}
+
+.px_16{
+   
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
+color: #555555;
+}
+
+.now{
+    color: #7247CA;
+}
+
+.button{
+    margin-top: 21px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+}
+
+.rctngle{
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+
+.advert{
+    margin: 70px 0;
+}
+
+.numbers{
+    margin-top: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 6px;
+}
+
+.header{
+    display: block;
+}
+.one{
+    width: 30px;
+    height: 30px;
+    background-color: #F5F5F7;
+    padding: 8px 12px;
+}
+
+.point{
+    width: 30px;
+    height: 30px;
+    background-color: #F5F5F7;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+.binafsha{
+    color: #7247CA;
+    text-transform: capitalize;
+    text-align: left;
+    padding-top: 16px;
+    padding-left: 16px;
+}
+
+.px_18{
+    color: #222222;
+   
+font-size: 18px;
+font-weight: 400;
+line-height: 22.55px;
+text-align: left;
+
+}
+
+.staff{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.info{
+    background-color: #F5F5F7;
+    width: 301px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.aida{
+    padding-top: 9px;
+    padding-left: 16px;
+}
+
+.social_m{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 16px;
+margin-left: 16px;
+margin-top: 39px;
+padding-bottom: 16px;
+}
+
+.px_14{
+    color: #979797;
+font-size: 14px;
+font-weight: 400;
+line-height: 17.54px;
+text-align: left;
+}
+
+.read{
+    color: #7247CA;
+
+}
+
+.posts{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    gap: 40px;
+}
+.dec{
+    padding-top: 16px;
+    padding-bottom: 39px;
+}
+a{
+    text-decoration: none;
+}
+
+.btn{
+    background-color: #F5F5F7;
+    padding: 9px 15px;
+    border: none;
+    color: #7247CA;
+}
+
+.btn:hover{
+    background-color: #7247CA;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+.px_14_2{
+font-size: 14px;
+font-weight: 600;
+line-height: 25px;
+color: #555555;
+padding-bottom: 20px;
+}
+
+.footer_right p{
+    color: #555555;
+}
+
+.btn{
+    margin-top: 50px;
+}
+
+#email{
+    outline-offset: none;
+    border: none;
+    outline: none;
+    background-color: #F5F5F7;
+    padding-left: 14px;
+}
+
+.input{
+    background-color: #F5F5F7;
+  display: flex;
+  align-items: center;
+  gap: 180px;
+  margin-top: 20px;
+}
+
+.arrow{
+    padding: 13px 18px;
+    background-color: #7247CA;
+}
+
+.Sign{
+    padding-top: 8px;
+    text-align: left;
+
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    gap: 300px;
+}
+
+a:hover{
+    color: aquamarine;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.Podcast{
+    color: #222222;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.footer_icon{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+}
+
+footer a p:hover{
+    color: aquamarine;
+}
+
+.header{
+    display: flex;
+    gap: 20px;
+}
+
+.menu_mobile{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+
+@media (max-width: 1260px) {
+header{
+    justify-content: center;
+    gap: 300px;
+}
+
+hr{
+    width: 70%;
+}
+}
+
+@media (max-width: 960px)
+{
+.footer{
+    gap: 170px;
+}
+}
+
+@media (max-width: 880px)
+{
+    .black_rectangle {
+width: 90px;
+    }
+
+    .white_rectangle{
+        width: 300px;
+    }
+
+    header{
+        gap: 200px;
+    }
+}
+
+
+@media (max-width: 770px)
+{
+    .staff{
+        gap: 40px;
+    }
+
+    .posts{
+        gap: 30px;
+    }
+}
+
+@media (max-width: 740px)
+{
+.posts, .lates, .btn{
+    margin-left: 30px;
+}
+
+}
+
+@media (max-width: 730px)
+{
+    header{
+        gap: 80px;
+    }
+
+    .rapidly{
+        margin: auto;
+        text-align: center;
+        width: 500px;
+    }
+
+    .advert{
+        margin: auto;
+        text-align: center;
+        width: 500px;
+        padding-top: 30px;
+    }
+
+    .black_rectangle {
+        width: 50px;
+            }
+        
+            .white_rectangle{
+                width: 200px;
+            }
+
+            .footer{
+                gap: 30px;
+            }
+            .input{
+                gap: 100px;
+            }
+
+
+           
+        }
+
+
+@media (max-width: 700px)
+{
+    
+
+    .staff{
+        flex-direction: column;
+    }
+    .social_m{
+        margin-top: 50px;
+        margin-right: 90px;
+        padding-right: 50px;
+    }
+
+    header{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    header nav{
+        gap: 13px;
+    }
+
+}
+
+
+@media (max-width: 570px)
+{
+   .rapidly, .advert{
+    width: 430px;
+   }
+
+}
+
+
+@media (max-width: 510px)
+{
+    .footer{
+        flex-direction: column;
+    }
+
+    .px_14_2{
+        font-size: 25px;
+    }
+
+    .black_rectangle {
+        width: 30px;
+            }
+        
+            .white_rectangle{
+                width: 140px;
+            }
+
+            .rapidly, .advert{
+                width: 390px;
+               }
+            
+               .posts{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+               }
+
+.nav{
+    font-size: 20px;
+}
+
+}
+
+@media (max-width: 470px)
+{
+    .rapidly, .advert{
+        width: 330px;
+       }
+    
+       .input{
+        gap: 20px;
+       }
+
+       .white_rectangle{
+        width: 100px;
+    }
+
+
+    
+}
+
+@media (max-width: 400px)
+{
+    .header{
+        display: none;
+    }
+
+    header
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 190px;
+}
+    .menu{
+        display: block;
+    }
+}
